@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #1A1A1A;
+}
+
+ /* a{
+  color:white;
+} */
+
+.flip-horizontally {
+  transform: scaleX(-1);
+}
+
+.mouse-scrunch:hover {
+  transform: scaleX(.5);
+}
+
+.mouse-scrunch_fliped:hover {
+  transform: scaleX(-.5);
+}
